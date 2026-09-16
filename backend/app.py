@@ -28,8 +28,7 @@ app = FastAPI(title="ZenAI Agent", version="1.0.0")
 # Allow the Netlify-hosted frontend to call this API.
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # tighten to your actual Netlify domain before final submission
-    allow_methods=["*"],
+    allow_origins=["https://zenai-agent.netlify.app/", "http://localhost:5173"],
     allow_headers=["*"],
 )
 
