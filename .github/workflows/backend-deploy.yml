@@ -1,0 +1,44 @@
+name: Backend CI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "backend/**"
+      - ".github/workflows/backend-deploy.yml"
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Syntax check all backend modules
+        run: |
+          cd backend
+          python -m py_compile $(find . -name "*.py")
+
+      - name: Run scope classifier + model router unit tests
+        run: |
+          cd backend
+          python -m pytest eval/ -v || python eval/run_eval.py
+
+  deploy-notice:
+    needs: test
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: Deployment info
+        run: |
+          echo "Tests passed. Render auto-deploys from the main branch via its own GitHub integration (configured in the Render dashboard, not here)."

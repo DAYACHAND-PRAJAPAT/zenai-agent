@@ -1,0 +1,18 @@
+[
+  {"request": "What are our Scope 1 and Scope 2 emissions for this quarter?", "expected_in_scope": true},
+  {"request": "How can our company reduce carbon footprint through renewable energy?", "expected_in_scope": true},
+  {"request": "Summarize the new CSRD regulation impact on our supply chain", "expected_in_scope": true},
+  {"request": "What is our biodiversity impact assessment for the new factory site?", "expected_in_scope": true},
+  {"request": "Explain our water stewardship policy for the manufacturing plant", "expected_in_scope": true},
+  {"request": "Generate an ESG disclosure summary for our sustainability report", "expected_in_scope": true},
+  {"request": "What are the circular economy opportunities in our packaging waste?", "expected_in_scope": true},
+  {"request": "Analyze our Scope 3 supply chain emissions data", "expected_in_scope": true},
+
+  {"request": "Write me a poem about my cat", "expected_in_scope": false},
+  {"request": "What's the best pizza recipe with extra cheese?", "expected_in_scope": false},
+  {"request": "Who won the football match last night?", "expected_in_scope": false},
+  {"request": "Help me debug my JavaScript code", "expected_in_scope": false},
+  {"request": "What's the weather like in Paris tomorrow?", "expected_in_scope": false},
+  {"request": "Recommend a good movie to watch this weekend", "expected_in_scope": false},
+  {"request": "What time zone is Tokyo in?", "expected_in_scope": false}
+]

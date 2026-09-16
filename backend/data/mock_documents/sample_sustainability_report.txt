@@ -1,0 +1,30 @@
+Zenlynx Technology — Sample Enterprise Sustainability Report (Mock Data)
+
+Section 1: Emissions Overview
+Our organization tracks Scope 1, Scope 2, and Scope 3 greenhouse gas emissions
+annually. In the most recent reporting period, Scope 1 emissions (direct
+emissions from owned sources) totaled 1,250 tCO2e, a 6% reduction from the
+prior year, driven by fleet electrification. Scope 2 emissions (purchased
+electricity) totaled 3,400 tCO2e, reduced through a shift to renewable energy
+contracts covering 40% of grid electricity purchases.
+
+Section 2: Water Stewardship
+Water withdrawal across all facilities was 85,000 kiloliters, with 30% sourced
+from recycled/treated water. Two facilities in water-stressed regions have
+water-efficiency retrofits planned for the next fiscal year.
+
+Section 3: Waste & Circular Economy
+Total waste generated was 2,100 tonnes, of which 68% was diverted from
+landfill through recycling and composting programs. A packaging redesign
+initiative aims to reduce single-use plastic packaging by 25% within two years.
+
+Section 4: Biodiversity
+An environmental impact assessment was conducted for the proposed expansion
+site, identifying two protected species habitats within a 5km radius. Mitigation
+measures include a buffer zone and a biodiversity offset program.
+
+Section 5: Regulatory Compliance
+The organization is preparing for CSRD (Corporate Sustainability Reporting
+Directive) compliance ahead of the mandatory reporting deadline, and has
+aligned its disclosure framework with BRSR Core requirements for the Indian
+market, covering the nine ESG attributes required under SEBI's framework.
