@@ -40,6 +40,8 @@ class ChatRequest(BaseModel):
 @app.on_event("startup")
 def on_startup():
     init_db()
+    from embeddings import _get_embedding_model
+    _get_embedding_model()  # preload once at boot, not on first user request
 
 
 @app.get("/")
